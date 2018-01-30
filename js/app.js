@@ -9,6 +9,13 @@ for (var i=0; i<navElem.length; i++){
 	navElem[i].addEventListener('click', showInner);
 }
 
+// var innerElem = document.getElementsByClassName('inner');
+// console.log(innerElem);
+
+// for (var i=0; i<innerElem.length; i++){
+// 	innerElem[i].style.display = 'none';
+// }
+
 function showInner(){
 	var inElem = this.querySelectorAll('.inner')[0];
 	if (inElem.style.display === 'none'){
